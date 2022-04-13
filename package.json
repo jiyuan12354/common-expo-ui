@@ -1,0 +1,47 @@
+{
+  "name": "common-ui-expo",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "preinstall": "./scripts/preinstall.sh",
+    "postinstall": "./scripts/postinstall.sh",
+    "start": "./scripts/start.sh",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "storybook": "start-storybook -p 9001 -c ./storybook",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^12.0.5",
+    "@react-native-async-storage/async-storage": "^1.17.0",
+    "@storybook/react-native": "5.3.25",
+    "@storybook/react-native-server": "5.3.23",
+    "common_ui_components": "file:./common_ui_components.tgz",
+    "expo": "~44.0.0",
+    "expo-status-bar": "~1.2.0",
+    "ramda": "^0.28.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-native": "0.64.3",
+    "react-native-fast-image": "^8.5.11",
+    "react-native-modal": "^13.0.1",
+    "react-native-paper": "^4.11.2",
+    "react-native-web": "0.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@storybook/addon-actions": "^6.4.19",
+    "@storybook/addon-essentials": "^6.4.19",
+    "@storybook/addon-interactions": "^6.4.19",
+    "@storybook/addon-links": "^6.4.19",
+    "@storybook/react": "^6.4.19",
+    "@storybook/testing-library": "^0.0.9",
+    "@types/react": "~17.0.21",
+    "@types/react-native": "~0.64.12",
+    "babel-loader": "^8.2.4",
+    "typescript": "~4.3.5"
+  },
+  "private": true
+}
